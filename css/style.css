@@ -315,3 +315,44 @@ footer{
     font-weight: bold;
     margin: 50px 0 100px;
 }
+
+/* responsividade */
+
+/* small laptops */
+@media (max-width: 1100px) {
+    .plans-container{
+        width: 95%;
+    }
+    
+    .plan{
+        margin: 0 5px;
+    }
+}
+
+/* tablet */
+@media (max-width: 900px) {
+    .main-banner p{
+        padding: 0 6rem;
+    }
+    .searchdomain-container {
+        padding: 2rem 4rem;
+    }
+}
+
+/* celular */
+@media(max-width: 576px) {
+    .plans-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .plan{
+        width: 100%;
+        max-width: 100%;        
+    }
+    .contact-container input,
+    .contact-container textarea{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
